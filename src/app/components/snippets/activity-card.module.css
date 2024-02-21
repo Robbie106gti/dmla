@@ -1,0 +1,64 @@
+.activityCardLeft {
+  display: flex;
+  gap: var(--gap);
+}
+.activityCardRight {
+  display: flex;
+  gap: var(--gap);
+  flex-direction: row-reverse;
+}
+
+.corner {
+  display: block;
+  background-color: var(--secondary-color);
+}
+
+.mainImageLeft {
+  clip-path: polygon(100% 0, 100% 100%, 15% 100%, 0% 85%, 0 0);
+  grid-area: 1 / 1;
+}
+.mainImageRight {
+  clip-path: polygon(100% 0, 100% 85%, 85% 100%, 0 100%, 0 0);
+  grid-area: 1 / 1;
+}
+
+.circles {
+  position: relative;
+  display: block;
+  left: -1.875rem;
+  grid-area: 1 / 1;
+  z-index: +1;
+  top: 0.375rem;
+}
+.cornerPoint {
+  position: relative;
+  display: block;
+  right: calc(-97% + 5px);
+  left: auto;
+  grid-area: 1 / 1;
+  z-index: +1;
+  top: -5px;
+
+}
+
+.image {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template: "container";
+}
+.image > img {
+  margin-bottom: var(--gap);
+}
+
+.text {
+  display: block;
+  border-bottom: 3px solid #fff;
+}
+
+.linkleft{
+  justify-self: start;
+}
+.linkRight{
+  justify-self: end;
+}

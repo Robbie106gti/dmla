@@ -1,0 +1,16 @@
+.cuttingedge {
+  display: grid;
+  background-color: var(--gray-light-color);
+  padding: var(--gap) 0;
+  position: relative;
+}
+
+
+.angle {
+  width: 400px;
+  height: 42.5px;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
