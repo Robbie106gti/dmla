@@ -1,7 +1,10 @@
+import FounderCard from "@/app/components/cards/founder-card";
 import CalloutTitle from "../../components/snippets/callout-title";
 import IntervalBar from "../../components/snippets/intervalBar";
 import SectionHeader from "../../components/snippets/section-header";
 import styles from "./page.module.css";
+import AssociateCard from "@/app/components/cards/associate-card";
+import Associates from "@/app/components/associates";
 
 export default function AboutUs() {
   return (
@@ -67,6 +70,52 @@ export default function AboutUs() {
           </div>
         </div>
         <IntervalBar />
+        <div className={styles.outteam}>
+          <img
+            src={"/ourteam.svg"}
+            loading="lazy"
+            alt={"Our team icon with 4 heads overlapped"}
+            style={{
+              width: "4.125rem",
+              height: "auto",
+            }}
+          />
+          <h3>Our Team</h3>
+        </div>
+        <FounderCard
+          image={""}
+          imageAlt={""}
+          title={""}
+          subTitle={""}
+          description={""}
+        />
+        <FounderCard
+          image={""}
+          imageAlt={""}
+          title={""}
+          subTitle={""}
+          description={""}
+        />
+        <IntervalBar />
+        <div className={styles.outassociates}>
+          <img
+            src={"/ourteam.svg"}
+            loading="lazy"
+            alt={"Our team icon with 4 heads overlapped"}
+            style={{
+              width: "4.125rem",
+              height: "auto",
+            }}
+          />
+          <h3>Meet our Associates</h3>
+          <p>
+            At <b>Studio DMLA</b>, the well-being and development of our
+            associates come first. Through these incredible collaborations
+            locally and in Latin America, we can deliver first-class and timely
+            services to our clients.
+          </p>
+        </div>
+        <Associates />
       </div>
     </section>
   );

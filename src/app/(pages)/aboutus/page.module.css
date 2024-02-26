@@ -35,3 +35,10 @@
   gap: calc(var(--gap)/2);
 
 }
+
+.ourteam {
+  display: block;
+}
+.ourassociates {
+  display: block;
+}

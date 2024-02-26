@@ -1,5 +1,5 @@
 import CalloutTitle from "../../components/snippets/callout-title";
-import ExpertiseCard from "../../components/snippets/expertise-card";
+import ExpertiseCard from "../../components/cards/expertise-card";
 import SectionHeader from "../../components/snippets/section-header";
 import styles from "./page.module.css";
 

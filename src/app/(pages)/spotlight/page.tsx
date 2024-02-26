@@ -2,7 +2,7 @@ import CalloutTitle from "../../components/snippets/callout-title";
 import ClientQuotes from "../../components/snippets/clientQuotes";
 import IntervalBar from "../../components/snippets/intervalBar";
 import SectionHeader from "../../components/snippets/section-header";
-import SpotlightCard from "../../components/snippets/spotlight-card";
+import SpotlightCard from "../../components/cards/spotlight-card";
 import styles from "./page.module.css";
 
 export default function Spotlight() {
