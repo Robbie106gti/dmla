@@ -1,5 +1,5 @@
-import ActivityCard from "../components/snippets/activity-card";
-import SectionHeader from "../components/snippets/section-header";
+import ActivityCard from "../../components/snippets/activity-card";
+import SectionHeader from "../../components/snippets/section-header";
 import styles from "./page.module.css";
 
 export default function OurImpact() {

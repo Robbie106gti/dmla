@@ -1,6 +1,6 @@
-import IntervalBar from "../components/snippets/intervalBar";
-import Platform from "../components/snippets/platform";
-import SectionHeader from "../components/snippets/section-header";
+import IntervalBar from "../../components/snippets/intervalBar";
+import Platform from "../../components/snippets/platform";
+import SectionHeader from "../../components/snippets/section-header";
 import styles from "./page.module.css";
 
 export default function Platforms() {

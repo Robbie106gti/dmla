@@ -1,13 +1,13 @@
-import AboutUs from "./aboutus/page";
+import AboutUs from "./(pages)/aboutus/page";
 import HeroDesktop from "./components/hero/desktop";
 import HeroMobile from "./components/hero/mobile";
 import HeroTablet from "./components/hero/tablet";
-import CuttingEdge from "./cuttingedge/page";
-import OurImpact from "./ourimpact/page";
+import CuttingEdge from "./(pages)/cuttingedge/page";
+import OurImpact from "./(pages)/ourimpact/page";
 import styles from "./page.module.css";
-import Platforms from "./platforms/page";
-import Spotlight from "./spotlight/page";
-import Wedo from "./wedo/page";
+import Platforms from "./(pages)/platforms/page";
+import Spotlight from "./(pages)/spotlight/page";
+import Wedo from "./(pages)/wedo/page";
 
 export default function Home() {
   return (

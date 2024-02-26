@@ -1,6 +1,6 @@
-import CalloutTitle from "../components/snippets/callout-title";
-import IntervalBar from "../components/snippets/intervalBar";
-import SectionHeader from "../components/snippets/section-header";
+import CalloutTitle from "../../components/snippets/callout-title";
+import IntervalBar from "../../components/snippets/intervalBar";
+import SectionHeader from "../../components/snippets/section-header";
 import styles from "./page.module.css";
 
 export default function AboutUs() {

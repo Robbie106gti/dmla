@@ -1,4 +1,4 @@
-import SectionHeader from '../components/snippets/section-header'
+import SectionHeader from '../../components/snippets/section-header'
 import styles from './page.module.css'
 
 export default function CuttingEdge() {
