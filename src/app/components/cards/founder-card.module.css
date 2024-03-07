@@ -21,3 +21,24 @@
   clip-path: polygon(100% 0, 100% 85%, 85% 100%, 0 100%, 0 0);
   grid-area: 1 / 1;
 }
+
+.canadaRight {
+  grid-area: 1 / 1;
+  position: absolute;
+  z-index: +1;
+  right: -3rem;
+  top: 1.5rem;
+}
+.canadaleft {
+  grid-area: 1 / 1;
+  z-index: +1;
+  position: absolute;
+  z-index: +1;
+  left: -3rem;
+  top: 1.5rem;
+}
+
+.image {
+  display: grid;
+  position: relative;
+}

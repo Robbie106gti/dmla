@@ -14,8 +14,14 @@ interface Props {
 
 export default function AssociateCard(props: Props) {
   return (
-    <>
-      <div className={styles.about}></div>
+    <div className={styles.selected}>
+      <div className={styles.about}>
+        <h3>{props.title}</h3>
+        <h4>{props.subTitle}</h4>
+        <p>
+        {props.description}
+        </p>
+        </div>
       <div className={styles.image}>
         <img
           src={"/" + props.image}
@@ -26,10 +32,22 @@ export default function AssociateCard(props: Props) {
             height: "15rem",
           }}
         />
+        <div className={styles.location}>
+        <img
+          src={"/flag-brazil.svg"}
+          loading="lazy"
+          alt={"location Brazil flag icon image"}
+          style={{
+            width: "auto",
+            height: "5rem",
+          }}
+        />
+
+        </div>
       </div>
       <div className={styles.blurp}>
       <ScrollingP p={props.blurp} />
       </div>
-    </>
+    </div>
   );
 }

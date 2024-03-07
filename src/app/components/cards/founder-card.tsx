@@ -21,6 +21,18 @@ export default function FounderCard(props: Props) {
       <div className={styles.image}>
         <img
           className={
+            props.imageRight ? styles.canadaRight : styles.canadaleft
+          }
+          src={"/canada_circles.svg"}
+          loading="lazy"
+          alt={"canada location icon image"}
+          style={{
+            width: "5rem",
+            height: "auto",
+          }}
+        />
+        <img
+          className={
             props.imageRight ? styles.mainImageRight : styles.mainImageLeft
           }
           src={"/" + props.image}

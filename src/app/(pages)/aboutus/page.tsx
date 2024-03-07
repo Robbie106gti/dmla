@@ -83,18 +83,19 @@ export default function AboutUs() {
           <h3>Our Team</h3>
         </div>
         <FounderCard
-          image={""}
-          imageAlt={""}
-          title={""}
-          subTitle={""}
-          description={""}
+          image={"MP-MariaPaulaMurad_Founder-President.png"}
+          imageAlt={"Maria paula braga murad founder of Studio DMLA"}
+          title={"Maria Paula Murad"}
+          subTitle={"Founder and President"}
+          description={"Maria Paula (MP) has a background in journalism and more than twenty years of experience in digital marketing. MP acquired this expertise through different roles at GV English Centres and ILSC Education Group. Before that, she worked in corporate communications in Brazil. At CDI, she worked with Alcoa to implement public relations and online marketing initiatives. At Casas Bahia, MP created content for internal communication, email marketing, and campaigns. At Alto Astral, she was part of the team that launched the company’s digital marketing department. Portuguese is MP’s native language, and she is proficient in English and Spanish."}
         />
         <FounderCard
-          image={""}
-          imageAlt={""}
-          title={""}
-          subTitle={""}
-          description={""}
+          imageRight={true}
+          image={"RobertLeeuwerink_Co-founder-SeniorSoftwareDeveloper.png"}
+          imageAlt={"Robert Leeuwerink co-founder of Studio DMLA"}
+          title={"Robert Leeuwerink"}
+          subTitle={"Co-founder and Senior Software Developer"}
+          description={"Robert Leeuwerink has a background in graphic design and is a self-taught developer. Since 2016, his main focus has been front-end development. He also uses Web Components, JQuery,  JavaScript/TypeScript, and PHP. At Comsense (2022), he was a Senior Frontend Developer responsible for structuring and architecting the frontend for software as a service ERP system. At Ruckify (2021), Robert created a framework (component library) and set up a tool called StoryBook for the development team to understand the options available. At Nickels (2019), he created a System of Operations, an internal tool for engineers and general employees to reference and update their workflow. Robert also has a degree in administration and finance, which helps him understand business needs. Dutch is his native language and he is proficient in English and Portuguese. Specialties:  Web Development: Angular 2+, TypeScript/JavaScript, JQuery, JSON, PHP, MySql, Firebase, Bootstrap, HTML5, CSS3."}
         />
         <IntervalBar />
         <div className={styles.outassociates}>

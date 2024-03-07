@@ -37,46 +37,51 @@ export default function Wedo() {
         <ExpertiseCard
           image={"mobile-desktop-ready.svg"}
           imageAlt={"Mobile and desktop ready websites icon"}
-          image_subtitle="Web development, design & maintenance"
+          image_subtitle="Web Development, Design & Maintenance"
           subjects={[
             {
-              title: "Web development",
+              title: "Web Development",
               descriptions: [
                 "We specialize in coding from scratch, implementing web components, Angular development, and WordPress template customization.",
                 "Our services include:",
-                "> Website development and revamp",
-                "> Website migration package",
-                "> Ongoing web updates",
-                "> Web maintenance, including a monthly activity report",
+                "> Website development and revamp.",
+                "> Website migration package.",
+                "> Ongoing web updates.",
+              
               ],
             },
             {
-              title: "Web design",
+              title: "Web Design",
               descriptions: [
-                "Our web design offerings span design thinking, lean UX/UI, interface design, and prototypes.",
+                "Our web design offerings include design thinking, lean UX/UI, interface design, and prototypes.",
               ],
             },
             {
-              title: "Web maintenance",
+              title: "Web Maintenance",
               descriptions: [
-                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam",
-              ],
+                "Maintenance of a WordPress website, including:", 
+                "> Updating the WP system, plugins, and theme.",
+                "> Testing and Quality Assurance of the above updates in a staging environment before moving to production.",
+                "> Monthly report on maintenance activities, including updates performed, regression tests, and relevant recommendations."
+
+
+              ]
             },
           ]}
         />
         <ExpertiseCard
           image={"compass-coge.svg"}
           imageAlt={"Navigate the digital word with SEO"}
-          image_subtitle="Technical SEO (search engine optimization)"
+          image_subtitle="Technical SEO (Search Engine Optimization)"
           subjects={[
             {
               title: "Technical SEO",
               marginNormal: true,
               descriptions: [
                 "If you are seeking a local SEO company, we have a full suite of services including:",
-                "> Website and SEO audit, complete report along with errors and warning documents",
-                "> Post-audit technical optimization to improve the performance and page speed of the website, especially on mobile devices",
-                "> Monthly SEO ranking reports, with insights on how to improve your website content to position higher and increase market share against competitors",
+                "> Website and SEO audit, complete report along with errors and warning documents.",
+                "> Post-audit technical optimization to improve the performance and page speed of the website, especially on mobile devices.",
+                "> Monthly SEO ranking reports, with insights on how to improve your website performance to position higher and increase market share against competitors.",
               ],
             },
           ]}
@@ -84,18 +89,18 @@ export default function Wedo() {
         <ExpertiseCard
           image={"digital-pen-tablet.svg"}
           imageAlt={"Mobile and desktop ready websites icon"}
-          image_subtitle="Digital & graphic design"
+          image_subtitle="Digital & Graphic Design"
           subjects={[
             {
-              title: "Offline marketing",
+              title: "Offline Marketing",
               descriptions: [
                 "Our skills include visual identity, brand manuals, logo design, corporate materials, online and print brochure design, and more.",
               ],
             },
             {
-              title: "Paid media",
+              title: "Paid Media",
               descriptions: [
-                "In addition to organic results, you may want to consider a well-calibrated strategy in Google Ads for your customer journey. If you are interested in learning more about Google Ads strategies, we would be happy to guide you.",
+                "In addition to organic results, you may want to consider a well-calibrated strategy with Online Ads for your customer journey. If you are interested in learning more about Paid Media strategies, we would be happy to guide you.",
               ],
             },
             {
@@ -109,12 +114,12 @@ export default function Wedo() {
         <ExpertiseCard
           image={"3d-laptop-configurar.svg"}
           imageAlt={"Mobile and desktop ready websites icon"}
-          image_subtitle="3D rendering"
+          image_subtitle="3D Rendering"
           subjects={[
             {
-              title: "3D rendering",
+              title: "3D Rendering",
               descriptions: [
-                "Studio DMLA is now offering 3D rendering services. Marcelo Borges, our 3D rendering associate, specializes in marketing, scenography, and furniture creations for points of sale, store windows, and spaces. Get in touch with us to learn more about our 3D rendering offerings.",
+                "Studio DMLA is now offering 3D rendering services. We specialize in scenography, and furniture creations for points of sale, store windows, and spaces. Get in touch with us to learn more about our 3D rendering offerings.",
               ],
             },
           ]}
